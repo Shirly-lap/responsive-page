@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: white;
+}
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%;
+	} 
+}
+
+
+.iconoimp{
+    background: white;
+    padding-top: 15px;
+    padding: 15px;
+}
+
+.img_logo{
+    width: 180px;
+    height: 210px;
+    margin: 0 auto;
+    display: block;
+}
+
+.titulo{
+    font-family:  'Amatic SC', cursive;
+    font-size: 1.56em;
+    text-align:  center;
+}
+
+div#menu{
+    background: white ;
+    text-align: center;                                                                                                  
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    max-width: 56.25em;   
+    font-size: 1.56em;
+    margin-top: -10px;
+    font-family:  'Amatic SC', cursive;
+    cursor: pointer;
+    
+}
+
+div#menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #333;
+   
+}
+
+div#menu a:visited{
+    color: black;
+}
+
+div#menu a:hover{
+    text-decoration: underline;
+
+}
+
+div#menu a:active{
+    color:cyan;
+}
+
+
+
+.contenedor{
+    width: 60%;
+    max-width: 56.25em; 
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    color: #333; 
+    font-size: 1.375em;
+    background: whitesmoke;
+  
+
+}
+
+.contenedor video {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+.contenedor h1{
+    text-align: center;
+    font-size: 1.875em;
+    margin-top: 10%;
+    font-family: 'Amatic SC', cursive;
+}
+
+div.descripcion img{
+    width: 90%;
+    position: center;
+    bottom: 50px;
+    right: 35px;
+}
+
+div.descripcion img{
+    width: 25%;
+    position: absolute;
+    top: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+
+.imagenes img{ 
+
+width: 100%;
+
+}
+
+p.fixed{
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+fixed.style{
+    color: black;
+}
+
+
+/*dispositivos pqñ*/
+@media (max-width:600px){
+
+    .contenedor{
+        width: 100%;
+        height: 400px;
+    }
+}
+    /*disp md*/
+    @media (min-width:768px){
+
+        .contenedor{
+            width: 100%;
+            height: 420px;
+        }
+   
+    }
+
+    @media (min-width:992px){
+
+        .contenedor{
+            width: 100%;
+            height: 440px;
+        }
+    }
+
+ 
+
+
+
